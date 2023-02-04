@@ -1,0 +1,74 @@
+* {
+  padding: 0px;
+}
+
+body {
+  color: #ffffff;
+  font: 1rem monospace;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #000;
+  background-image: url(../src/imagens/The_Mentalist_logo.svg.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+button {
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #ff0000;
+}
+
+@media (max-width:380px){
+  button {
+    margin: 30px; 
+  }
+}
+
+
+.container {
+  text-align: center;
+  padding: 50px;
+  overflow: hidden;
+}
+
+@media (max-width:380px){
+  .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  gap: 10px;
+  }
+}
+
+.page-logo {
+  margin-top: 15%;
+  width: 300px;
+}
+
+@media (max-width:380px){
+  .page-logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 220px;
+  }
+}
